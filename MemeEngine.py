@@ -43,12 +43,10 @@ class MemeEngine:
 
             # Load fonts for the quote and author
             quote_font_path = (
-                'C:/Users/bronz/Downloads/meme-generator-By-Hamad-Fouzan/'
-                '_data/fonts/Fashion Fetish Bold.ttf'
+                './_data/fonts/Fashion Fetish Bold.ttf'
             )
             author_font_path = (
-                'C:/Users/bronz/Downloads/meme-generator-By-Hamad-Fouzan/'
-                '_data/fonts/Fashion Fetish Light Italic.ttf'
+                './_data/fonts/Fashion Fetish Light Italic.ttf'
             )
             quote_font = ImageFont.truetype(quote_font_path, size=22)
             author_font = ImageFont.truetype(author_font_path, size=18)
